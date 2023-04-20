@@ -1,0 +1,28 @@
+BTT Blender Tasks Tracking
+Create a Blender addon with the name BTT Blender Tasks Tracking. The addon 
+should create a new tab in the 3D Viewport. 
+
+Inside the tab there should be a panel called Create Task. Create a text input for Task Name. Create a text input for Task Description, 
+Create a dropdown menu to choose between Low, Medium or High for Priority. Create a dropdown menu to choose between Todo, Doing or Done for Status. Create a text input for Due Date. Create a text input for Doer. There's a button to Create Task.
+
+Inside the tab there should be a panel called Tasks List that displays a list with all created tasks names and due dates. The list should be sortable. Each task has a small button that allows to delete the task. When the mouse is hover the task name display as tooltips the Task Name, the Task Description, Priority, Status, Due Date and Doer. Each task has a small button that allows to delete the task.
+
+
+
+
+Production Tracking
+Create a Blender addon with the name Production Tracking.
+The addon should create a new tab in the Compositor. 
+Create a node called Task.
+ 
+The Task node has an image input. The image should be visible as thumb.
+The Task node has a text input for Name.The Task node has a text input for Description. The Task node has a Priority dropdown menu to choose between Low, Medium or High. The Task node has Status dropdown menu to choose between Todo, Doing or Done. The Task node has a text input for Due Date.
+The Task node has a text input for Doer. 
+ 
+The Task nodes can connect with themselves.
+
+
+TimeTracker
+Write a Blender addon with the name TimeTracker.
+The addon should create a panel with a button in the Render Properties. When button is clicked, the time file is open in Blender is stored. Below button displays the total amount of time this file was open.
+ 
